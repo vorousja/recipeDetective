@@ -6,13 +6,14 @@
 
 
 
-<h3 class="landingHeadline">Enter ingredients to be used in recipe</h3>
+<h3 class="landingHeadline ">Enter ingredients to be used in recipe</h3>
 
 <form action="recipeResult" class="formClass" method=GET>
-	<input class="inputClass" type="text" name="enteredIngredients" style="color:#888;" 
-    value="Recipes that have..." onfocus="inputFocus(this)" onblur="inputBlur(this)"/>
-    <span class="icon fa fa-search"></span>
-	
+	<div class="formDiv">	
+		<input class="inputClass" type="text" name="enteredIngredients" style="color:#888;" 
+	    value="Recipes that have..." onfocus="inputFocus(this)" onblur="inputBlur(this)"/>
+	    <span class="icon fa fa-search"></span>
+	</div>	
 </form>
 
 
